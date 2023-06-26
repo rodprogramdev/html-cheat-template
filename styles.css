@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/**********************************HEADER****************************************/
+/* h1{
+    background-color: green;
+} */
+
+
+.header{
+    height: 100vh;
+    /* File path points to a file in the images folder located at the root of the current web*/
+    /* background-image: url('/images/pch-vector.jpg'); */
+    /* File path points to a file in the images folder located at the current folder*/ 
+    background-image: 
+    linear-gradient(to bottom,
+    rgba(240, 202, 8, 0.295),
+    rgba(49, 46, 46, 0.911)), 
+    url('images/pch-vector.jpg');  
+     /* File path points to a file in the images folder located at the current folder*/
+     /* background-image: url('../images/pch-vector.jpg'); */
+    /* background-color: yellow;  */
+    background-size:cover;
+}
+
+.header__heading {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    /* background-color: orangered; */
+    transform: translate(-50%, -50%);
+}
+
+.header__heading--1{
+    color: #fff;
+    font-size: 5rem;
+    text-align: center;
+    text-shadow: 5px 5px 5px black;
+
+}
+
+
+.header__list{
+    float: left;
+    padding: 2% 2%;
+    list-style-type:none;
+}
+
+.header__link:link{
+    text-decoration: none;
+    font-size: 2rem;
+    text-shadow: 3px 2px 1px black;
+    color: #fff;
+    font-weight: 700;
+}
+
+.header__link:visited{
+    color:#fff;
+}
+
+.header__link:hover{
+    color:rgb(243, 215, 4);
+}
+
+.header__link:active{
+    color:red;
+}
+
+
+/*
+univisted link
+visited link
+mouse over link
+selected link
+*/
+/**********************************ABOUT****************************************/
+
+.about{
+    height: 55vh;
+    text-align:center;
+    /* background-color:orangered; */
+}
+
+.about__heading--2{
+    font-size: 2.8rem;
+    margin-top: 5%;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: 500px;
+}
+
+.about__paragraph{
+    float:left;
+    width: 39%;
+    top:15%;
+    left:5%;
+    position:relative;
+}
+
+.about__paragraph--1{
+    /* background-color: green; */
+    color: black;
+    text-align: left;
+   
+} 
+
+.about-paragraph--2{
+    background-color: palegoldenrod;
+}
+
+span{
+    display:inline-block;
+    background-color: red;
+    width: 50%;
+}
+
+.about__img{
+    /* height:15rem;
+    width: 15rem;
+    border-radius: 50%; */
+    /* background-color: orange; */
+    float:right;
+    margin-right: 15%;
+}
+
+.about__img--1{
+    height:15rem;
+    width: 15rem;
+    border-radius: 50%;
+}
+
+/**********************************BLOGPOST****************************************/
+.blogpost{
+    height: 110vh;
+    background-image: 
+    url('images/J-comp-hacker-with-laptop-golden-credit-card.jpg');  
+    background-size: cover;
+    /* background-color: palegoldenrod; */
+    color: #fff;
+    padding: 3rem;
+}
+
+
+.blogpost__heading--2{
+    font-size: 2.8rem;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.blogpost__aside{
+  float: right;
+  padding: 2rem;
+}
+
+.blogpost__list{
+    padding: 1rem;
+}
+
+.blogpost__img--1{
+    float:left;
+    margin-right: 2rem;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+}
+
+hr{
+    width: 56%;
+    color: #fff;
+}
+
+.blogpost__img--2{
+    float:left;
+    margin-right: 2rem;
+    border-radius:50%;
+    width: 100px;
+    height: 100px;
+    
+}
+
+.blogpost__heading--3{
+    padding: 2% 2% 2% 2%;
+}
+
+.blogpost__blockquote{
+    /* background-color:green; */
+    display:inline-block;
+    width: 60%;
+    /* padding: 0% 3%; */
+    line-height: 1.7rem;
+}
+
+.blogpost__link{
+    margin-left: 2%;
+    text-decoration: none;
+    color: red;
+}
+
+/**********************************TABLE****************************************/
+
+.table{
+    height: 70vh;
+    background-color: #fff;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+table{
+    /* position:relative; */
+    margin: 0 auto;
+}
+
+.table__heading--2{
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.table__row--1{
+    background-color: black;
+    color: #fff;
+
+}
+
+td, th{
+    padding: 1rem;
+    margin: 5px;
+    border: 1px solid #ddd;
+}
+
+
+tr:nth-child(2){
+    background-color: #ddd;
+}
+/**********************************SUBSCRIBE****************************************/
+.form{
+    height: 100vh;
+    background-image: linear-gradient(to bottom,
+    rgba(240, 202, 8, 0.295),
+    rgba(49, 46, 46, 0.911)), url('images/creative-flat-lay-photo-workspace-desk.jpg');
+    background-size:cover;
+    padding-left: 5rem;
+    color: #fff;
+}
+
+.form__heading--2{
+    border-bottom: 5px solid black;
+    width: 15%;
+    padding-top:5%;
+    margin-bottom:5%;
+    font-size: 2.8rem;
+    color:black;
+}
+
+.form__label--name{
+    padding-right:27px;
+    font-weight:700;
+}
+
+.form__label--email{
+    padding-right: 30px;
+    font-weight: 700;
+}
+
+.form__label--questions{
+    font-weight: 700;
+    
+}
+
+.form__textarea{
+    width: 535px;
+height: 209px;
+}
+
+.form__label--subscription{
+    font-weight: 700;
+}
+
+.form__submit{
+    padding: .5rem 2rem;
+    text-align: center;
+}
+
+/**********************************FOOTER****************************************/
+.footer{
+    height: 25vh;
+    background-color: #000;
+    color: #fff;
+    padding: 2rem;
+}
+
+.footer__contact{
+    float:left;
+    margin-right: 15%;
+}
+
+.footer__list{
+    list-style-type:none;
+}
+
+.footer__link{
+    text-decoration:none;
+    color:#fff;
+}
+
+.footer__link:hover{
+    color:yellow;
+    
+}

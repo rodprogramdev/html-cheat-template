@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Cheat Sheet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <style>
+        /* body{
+            background-color: yellow;
+        } */
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+    </style> -->
+  </head>
+  <body>
+    <!--HERO SECTION-->
+    <!--Accessible Rich Internet Applications (ARIA)-->
+    <!-- BEM BLOCK__ELEMENT--MODIFIER -->
+    <header>
+      <div class="header">
+        <nav class="header__nav">
+          <ul class="header__ul">
+            <li class="header__list">
+              <a class="header__link" href="old-index.html">Home</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="#about-section">About</a>
+            </li>
+            <li class="header__list">
+              <a class="header__link" href="mailto:test@gmail.com">Contact</a>
+            </li>
+            <li class="header__list">
+              <a
+                class="header__link"
+                href="https://twitter.com/BonzerrLopez"
+                target="_blank"
+                >Twitter</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="header__heading">
+          <h1 class="header__heading--1" title="HTML CHEAT SHEET">
+            HTML CHEAT SHEET
+          </h1>
+        </div>
+      </div>
+    </header>
+    <!--MAIN SECTION-->
+    <main>
+      <!--ABOUT SECTION-->
+      <div class="about" id="about-section">
+        <h2 class="about__heading--2">About</h2>
+        <div class="about__paragraph">
+          <p class="about__paragraph--1">
+            I am <strong>Rodrigo Bonzerr Lopez</strong> and I am a
+            <b>computer scientist</b>, I am a
+            <em>full-stack web developer instructor</em> and an
+            <i>indie game developer.</i>
+          </p>
+
+          <!-- <p class="about__paragraph--2">Just some random text</p> -->
+        </div>
+        <div class="about__img">
+          <img class="about__img--1" src="rodprogramdev.jpg" alt="Profile picture" />
+        </div>
+        
+      </div>
+      <!--BLOGPOST SECTION-->
+      <section>
+        <div class="blogpost">
+          <h2 class="blogpost__heading--2">Blogpost</h2>
+          <aside class="blogpost__aside">
+            <h3>Tutorial Categories</h3>
+            <ul>
+              <li class="blogpost__list">HTML</li>
+              <li class="blogpost__list">CSS</li>
+              <li class="blogpost__list">JAVASCRIPT</li>
+              <li class="blogpost__list">CYBERSECURITY</li>
+            </ul>
+          </aside>
+          <article class="blogpost__article--1">
+            <h3 class="blogpost__heading--3">Computer Talk 101</h3>
+            <img class="blogpost__img--1"
+              src="https://wallpaperaccess.com/full/1428491.jpg"
+              alt="Computer Science Image"
+            />
+          </article>
+          <blockquote  class="blogpost__blockquote" cite="https://www.rodrigobonzerrlopez.com">
+            Computer literacy nowadays is an important skill to be acquired by
+            any individual. Especially, due to the fact that most common tasks
+            for different jobs in any industry would require tasks that can be
+            achieved through the use of a computer. From sending a simple email
+            to creating powerpoint presentations for a captured audience.
+          </blockquote><br>
+          <br>
+          <a class="blogpost__link"  href="#">Continue Reading...</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <hr>
+          <article  class="blogpost__article--2">
+            <h3  class="blogpost__heading--3">CCNA - Internet of Things</h3>
+            <img  class="blogpost__img--2"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.o89uhOOmpmrdsAiHYqKCIgHaEK%26pid%3DApi&f=1"
+              alt="Networking cable rj45 image"
+            />
+            <blockquote  class="blogpost__blockquote" cite="https://www.rodrigobonzerrlopez.com">
+              Hi! I'm Rodrigo Lopez and I would like to take the
+              <abbr title="Cisco Certified Network Associate">CCNA</abbr>
+              certification that is why I have committed to study networking on
+              a daily basis for one hour. I will be applying a 100 day challenge
+              of studying different Cisco Certified Network Associate concepts
+              and I would like to document my journey through this blog.
+            </blockquote><br><br><br>
+            <a class="blogpost__link" href="#">Continue Reading...</a>
+          </article>
+        </div>
+      </section>
+
+      <!--TABLE SECTION-->
+      <section>
+        <div class="table">
+          <h2 class="table__heading--2">SUBSCRIPTION PRICING:</h2>
+          <table>
+            <thead>
+              <tr class="table__row--1">
+                <th></th>
+                <th>BASIC</th>
+                <th>STANDARD</th>
+                <th>ADVANCE</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Monthly Price</td>
+                <td>Free</td>
+                <td>$10</td>
+                <td>$20</td>
+
+              </tr>
+              <tr>
+                <td>Lecture Setup</td>
+                <td>Synchronous</td>
+                <td>Sync / Asynchronous</td>
+                <td>Sync / Asynchronous</td>
+
+              </tr>
+              <tr>
+                <td>Number of hours</td>
+                <td>1 hour</td>
+                <td>2 hours</td>
+                <td>3 hours</td>
+
+              </tr>
+            </tbody>
+            <tfoot></tfoot>
+          </table>
+        </div>
+        
+      </section>
+      <!--FORM SUBSCRIBE SECTION-->
+      
+      <section>
+      
+        <div class="form">
+          <h2 class="form__heading--2">Subscribe</h2>
+          <form action="" method="POST">
+            <label class="form__label--name" for="customerName">Name:</label>
+            <input type="text" name="customerName" id="customerName" placeholder="Enter Your Name Here">
+            <br>
+            <br>
+            <label class="form__label--email" for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Here">
+           
+            <br>
+            <br>
+            <label class="form__label--questions" for="questions">Leave your message here:</label><br><br>      
+            <textarea class="form__textarea" name="questions" id="questions" cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <label class="form__label--subscription" for="subscriptionType">Type of Subscription:</label><br><br>
+            <select name="subscriptionType" id="subscriptionType">
+              <option value="none"></option>
+              <option value="basic" >Basic</option>
+              <option value="standard">Standard</option>
+              <option value="advance" >Advance</option>
+            </select>
+            <br>
+            <br>
+            <input class="form__submit" type="submit" name="submit" value="Submit">
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER SECTION-->
+    <footer>
+      <div class="footer">
+        <div class="footer__contact">
+          <h3>Contact Information:</h3>
+          <ul>
+            <li class="footer__list">Facebook: Your Facebook page</li>
+            <li class="footer__list">Twitter: Your Twitter page</li>
+            <li class="footer__list">Instagram: Your Instagram account</li>
+            <li class="footer__list">Discord: Your Discord server</li>
+            <li class="footer__list">Email: youremailhere@test.com</li>
+          </ul>
+        </div>
+        <div class="footer__credits">
+          Header photo background photo: <a class="footer__link" href="https://www.freepik.com/free-vector/computer-monitor-graphic-animator-creating-video-game-modeling-motion-processing-video-file-using-professional-editor-vector-illustration-graphic-design-art-designer-workplace-concept_11671412.htm#query=computer%20screen&position=19&from_view=search&track=ais">Image by pch.vector</a> on Freepik <br>
+          Blogpost background photo: <a class="footer__link" href="https://www.freepik.com/free-photo/hacker-with-laptop-golden-credit-card_5896811.htm#query=hacker%20jccomp%20free%20card&position=19&from_view=search&track=ais">Image by jcomp</a> on Freepik<br>
+          Subscribe background photo: <a class="footer__link" href="https://www.freepik.com/photos/background">Background photo created by tirachardz - www.freepik.com</a><br>
+          <br>
+          <p>Copyright &copy; 2023, <a class="footer__link" href="https://rodrigobonzerrlopez.com/" target="_blank">Rodrigo Bonzerr S. Lopez</a>, HTML template. It's completely ok for you to use this template.
+            <br> A credit to the owner will be highly appreciated.
+          </p>
+
+
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
