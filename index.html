@@ -50,8 +50,8 @@
           </ul>
         </nav>
         <div class="header__heading">
-          <h1 class="header__heading--1" title="HTML CHEAT SHEET">
-            HTML CHEAT SHEET
+          <h1 class="header__heading--1" title="HTML CHEAT SHEET"  id="demo">
+            <!-- HTML CHEAT SHEET -->
           </h1>
         </div>
       </div>
@@ -232,5 +232,18 @@
         </div>
       </div>
     </footer>
+    <script>
+      var i = 0;
+var txt = 'Hi!I\'m Rod, a full-stack web developer. Let\'s talk!';
+var speed = 50;
+
+window.onload = function typewriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typewriter, speed);
+  }
+}
+    </script>
   </body>
 </html>
